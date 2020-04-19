@@ -1,0 +1,52 @@
+.Container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 3rem;
+    overflow-y: auto;
+}
+
+.ContainerWithLoader {
+    width: 100%;
+    align-items: center;
+}
+
+.Block {
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+}
+
+.Left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 40%;
+}
+
+.Right {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 60%;
+}
+
+.GenresContainer {
+    font-family: 'Rubik', sans-serif;
+    padding: 0 0 1rem 0;
+}
+
+.Date {
+    font-family: 'Rubik', sans-serif;
+}
+
+.Right h1 {
+    font-family: Garamond, sans-serif;
+    margin-bottom: 1rem;
+}
+
+.Genre {
+    font-variant: all-small-caps;
+    font-size: 1.5rem;
+    padding: 1rem 1rem 1rem 0;
+    color: #8888FF;
+}

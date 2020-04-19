@@ -1,0 +1,8 @@
+.Container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 3rem;
+    overflow-y: auto;
+    width: 100%;
+}

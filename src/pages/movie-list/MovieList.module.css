@@ -1,0 +1,37 @@
+.Container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 3rem;
+    overflow-y: auto;
+}
+
+.ContainerWithLoader {
+    width: 100%;
+    align-items: center;
+}
+
+.Container li:hover {
+    background: #8888FF;
+}
+
+.Pagination {
+    display: flex;
+    flex-basis: 80%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Page {
+    cursor: pointer;
+    padding: 0 0.5rem;
+}
+
+.Active {
+    background: #8888FF;
+}
+
+.Disabled {
+    color: gray;
+    cursor: default;
+}

@@ -1,0 +1,12 @@
+.NavLink {
+    padding: 0.5rem;
+}
+
+.Link, .Link:active, .Link:focus, .Link:visited {
+    cursor: pointer;
+    color: white;
+}
+
+.Link:hover {
+    color: #8888FF;
+}

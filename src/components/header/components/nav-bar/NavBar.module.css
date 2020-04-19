@@ -1,0 +1,29 @@
+.OptionsContainer {
+    display: flex;
+    align-items: center;
+}
+
+.Link, .Link:active, .Link:focus, .Link:visited {
+    cursor: pointer;
+    color: white;
+}
+
+.Link:hover {
+    color: #8888FF;
+}
+
+.NavOptions {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.NavOptions Link {
+    color: white;
+    padding: 1rem;
+}
+
+.NavOptions li:hover {
+    color: #8888FF;
+}
+

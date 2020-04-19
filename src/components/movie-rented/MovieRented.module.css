@@ -1,0 +1,63 @@
+.Container {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.ContainerWithLoader {
+    width: 100%;
+    align-items: center;
+}
+
+.OptionsContainer  {
+    position: absolute;
+    font-size: 1.1rem;
+    bottom: 0;
+    height: 0;
+    transition: height .2s; /* Animation */
+}
+
+.Container:hover .OptionsContainer {
+    height: 20%;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0,0,0,0.5);
+}
+
+.Container:hover .TwoOptions {
+    height: 40%;
+}
+
+.Option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font: inherit;
+    color: white;
+    width: 100%;
+    flex: 1 0 auto;
+}
+
+.Option a,
+.Option a:visited,
+.Option a:active,
+.Option a:focus,
+.Option a:hover {
+    color: white;
+}
+
+.Option:hover {
+    background: #8888FF;
+}
+

@@ -1,0 +1,38 @@
+.Link, .Link:active, .Link:focus, .Link:visited {
+    cursor: pointer;
+    color: white;
+}
+
+.Link:hover {
+    color: #8888FF;
+}
+
+.SignInSignUp {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.SignIn {
+    margin-right: 0.25rem;
+}
+
+.SignUp {
+    margin-left: 0.25rem;
+}
+
+.SignOut {
+    margin-left: 0.5rem;
+}
+
+.Name {
+    color: khaki;
+}
+
+.Separator {
+    margin: 0 0.5rem;
+}
+
+.Welcome {
+    color: khaki;
+}
